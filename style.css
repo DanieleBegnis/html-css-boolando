@@ -1,0 +1,18 @@
+/*-------------------
+    RESET
+-------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------
+    BODY
+-------------------*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-width: 80%;
+    display: flex;
+}
