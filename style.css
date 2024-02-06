@@ -70,10 +70,10 @@ header img {
 }
 .heart {
     position: absolute;
-    font-size: 15px;
+    font-size: 30px;
     top: 5px;
     right: 0;
-    padding: 5px;
+    padding: 0 6px;
     background-color: white;
 }
 .bookmark{
