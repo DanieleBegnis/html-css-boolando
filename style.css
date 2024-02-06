@@ -42,6 +42,9 @@ header img {
     margin-left: -10px;
     margin-right: -10px;
 }
+.row > * {
+    padding: 0 10px;
+}
 .column-33 {
     width: calc(100% / 3);
 }
@@ -56,6 +59,15 @@ header img {
 .card img{
     width: 100%;
 }
+.card .image-hover{
+    display: none;
+}
+.card:hover .image-hover{
+    display: block;
+}
+.card:hover .image-default{
+    display: none;
+}
 .heart {
     position: absolute;
     font-size: 15px;
@@ -68,7 +80,7 @@ header img {
     color: white;
     font-size: 10px;
     position: absolute;
-    bottom: 20px;
+    bottom: 20%;
     left: 0;
 }
 .ad{
@@ -79,4 +91,10 @@ header img {
 }
 .sustainability{
     background-color: green;
+}
+.price{
+    color: red;
+}
+.discount{
+    text-decoration: line-through;
 }
