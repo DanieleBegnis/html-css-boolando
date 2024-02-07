@@ -82,6 +82,9 @@ header img {
     padding: 0 6px;
     background-color: white;
 }
+.heart:hover {
+    color: red;
+}
 .bookmark{
     color: white;
     font-size: 10px;
